@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Roger
 - 👀 I’m interested in Baseball
-- 🌱 I’m currently learning python and Swift
+- 🌱 I’m currently learning Swift
 - 💞️ I’m looking to collaborate on hackathon
 - 📫 How to reach me panyf200713@outlook.com
 - ⚡ Fun fact: I wanna go to college
