@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=Building+Intelligent+Mechatronic+Systems;4%2B+Years+%7C+6+Major+Projects+%7C+Physics+%E2%86%92+Code;Open+to+2026+Robotics%2FML+Engineer+Roles" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00FFFF&background=0D1117FF&center=true&vCenter=true&width=600&height=80&lines=Building+Intelligent+Mechatronic+Systems;4%2B+Years+%7C+6+Major+Projects+%7C+Physics+%E2%86%92+Code;Open+to+2026+Robotics%2FML+Engineer+Roles" alt="Typing SVG" />
 </p>
 
 <p align="center">
