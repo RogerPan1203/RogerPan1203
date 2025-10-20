@@ -1,7 +1,7 @@
 <!-- prettier-ignore-start -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:00CED1,100:0D1117&height=200&section=header&text=ROGER%20PAN&fontSize=70&fontColor=FFFFFF&animation=twinkling&fontAlignY=35&desc=ROBOTICS%20%26%20COMPUTER%20VISION%20ENGINEER&descSize=20&descAlignY=55" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:00CED1,100:0D1117&height=200&section=header&text=ROGER%20PAN&fontSize=70&fontColor=FFFFFF&animation=twinkling&fontAlignY=35&desc=ROBOTICS%20%2526%20COMPUTER%20VISION%20ENGINEER&descSize=20&descAlignY=55" />
 </p>
 
 <p align="center">
