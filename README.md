@@ -1,11 +1,11 @@
 <!-- prettier-ignore-start -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:00CED1,100:0D1117&height=250&section=header&text=ROGER%20PAN&fontSize=70&fontColor=FFFFFF&animation=twinkling&fontAlignY=30&desc=SOFTWARE%20AND%20HARDWARE%20ENGINEER&descSize=20&descAlignY=51" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:00CED1,100:0D1117&height=200&section=header&text=ROGER%20PAN&fontSize=70&fontColor=FFFFFF&animation=twinkling&fontAlignY=35&desc=SOFTWARE%20AND%20HARDWARE%20ENGINEER&descSize=20&descAlignY=55" />
 </p>
 
-<p align="center" style="margin-top: -20px;">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&lines=Building+Intelligent+Mechatronic+Systems;4%2B+Years+%7C+6+Major+Projects+%7C+Physics+%E2%86%92+Code;Open+to+2026+Robotics%2FML+Engineer+Roles" alt="Typing SVG" />
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=Building+Intelligent+Mechatronic+Systems;4%2B+Years+%7C+6+Major+Projects+%7C+Physics+%E2%86%92+Code;Open+to+2026+Robotics%2FML+Engineer+Roles" alt="Typing SVG" />
 </p>
 
 <p align="center">
