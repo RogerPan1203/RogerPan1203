@@ -253,4 +253,20 @@ stack = {
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=%E2%9A%99%EF%B8%8F+Building+machines+that+see+and+think;%F0%9F%93%A7+Open+to+collaboration+on+robotics+%26+ML+projects;%E2%9C%A8+Let's+turn+physics+into+code+together" alt="Footer Typing" />
 </p>
 
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PRs-Welcome-00FFFF?style=for-the-badge&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Open%20Source-Active-00FF41?style=for-the-badge&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Maintainer-RogerPan1203-00FFFF?style=for-the-badge&labelColor=000000" />
+  <br>
+  <img src="https://img.shields.io/badge/Deep%20Learning-PyTorch-FF6B35?style=for-the-badge&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Robotics-Control%20Systems-00FFFF?style=for-the-badge&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Computer%20Vision-OpenCV-00FF41?style=for-the-badge&labelColor=000000" />
+  <br>
+  <img src="https://img.shields.io/badge/AI%20Competition-2nd%20Place-FFD700?style=for-the-badge&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Projects-6%20Major-00FFFF?style=for-the-badge&labelColor=000000" />
+</p>
+
+
 <!-- prettier-ignore-end -->
