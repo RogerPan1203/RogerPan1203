@@ -255,18 +255,5 @@ stack = {
 
 
 
-<p align="center">
-  <img src="https://img.shields.io/badge/PRs-Welcome-00FFFF?style=for-the-badge&labelColor=000000" />
-  <img src="https://img.shields.io/badge/Open%20Source-Active-00FF41?style=for-the-badge&labelColor=000000" />
-  <img src="https://img.shields.io/badge/Maintainer-RogerPan1203-00FFFF?style=for-the-badge&labelColor=000000" />
-  <br>
-  <img src="https://img.shields.io/badge/Deep%20Learning-PyTorch-FF6B35?style=for-the-badge&labelColor=000000" />
-  <img src="https://img.shields.io/badge/Robotics-Control%20Systems-00FFFF?style=for-the-badge&labelColor=000000" />
-  <img src="https://img.shields.io/badge/Computer%20Vision-OpenCV-00FF41?style=for-the-badge&labelColor=000000" />
-  <br>
-  <img src="https://img.shields.io/badge/AI%20Competition-2nd%20Place-FFD700?style=for-the-badge&labelColor=000000" />
-  <img src="https://img.shields.io/badge/Projects-6%20Major-00FFFF?style=for-the-badge&labelColor=000000" />
-</p>
-
 
 <!-- prettier-ignore-end -->
