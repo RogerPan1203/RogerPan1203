@@ -1,259 +1,141 @@
 <!-- prettier-ignore-start -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:00CED1,100:0D1117&height=200&section=header&text=ROGER%20PAN&fontSize=70&fontColor=FFFFFF&animation=twinkling&fontAlignY=35&desc=SOFTWARE%20AND%20HARDWARE%20ENGINEER&descSize=20&descAlignY=55" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,55:0E4D5C,100:00CED1&height=190&section=header&text=Roger%20Pan&fontSize=58&fontColor=FFFFFF&fontAlignY=36&desc=Robotics%20%C2%B7%20Embedded%20Systems%20%C2%B7%20Computer%20Vision&descSize=18&descAlignY=58" alt="Roger Pan — Robotics · Embedded Systems · Computer Vision" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00FFFF&center=true&vCenter=true&width=700&height=80&background=0D1117&lines=Building+Intelligent+Mechatronic+Systems;4%2B+Years+%7C+6+Major+Projects+%7C+Physics+%E2%86%92+Code;Open+to+2026+Robotics%2FML+Engineer+Roles" alt="Typing SVG" />
+  <b>I build machines end to end — from CAD and firmware to control loops, vision models and the app you hold.</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-●%20Online-00FF41?style=for-the-badge&labelColor=000000&color=000000" alt="Status" />
-  <img src="https://img.shields.io/badge/LOCATION-San%20Jose%2C%20CA-00FFFF?style=for-the-badge&labelColor=000000&color=000000" alt="Location" />
-  <img src="https://komarev.com/ghpvc/?username=RogerPan1203&color=00FFFF&style=for-the-badge&label=VISITORS" alt="Visitors" />
+  <img src="https://img.shields.io/badge/Open%20to-Robotics%20%2F%20ML%20%2F%20Embedded%20roles-00CED1?style=flat-square&labelColor=0D1117" alt="Open to Robotics / ML / Embedded roles" />
+  <img src="https://img.shields.io/badge/Languages-English%20%C2%B7%20%E4%B8%AD%E6%96%87%20%C2%B7%20%E6%97%A5%E6%9C%AC%E8%AA%9E-0E4D5C?style=flat-square&labelColor=0D1117" alt="Languages" />
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFFF,100:0D1117&height=2&section=header" />
+---
 
-<br>
+### 👋 About
 
-## ⚡ CORE_SYSTEMS
+- **Full-stack hardware engineer.** I design the mechanism, write the firmware, tune the controller and ship the software on top.
+- **5 self-built machines** — a handwriting robot, CNC mill, 3D printer, force-feedback racing sim and a tennis ball robot — plus iOS/macOS apps and ML models.
+- **Results I can measure:** sub-millimetre motion accuracy, millisecond control loops, and a provincial AI competition award.
+- Currently building **robots and vision systems for tennis** 🎾.
+
+### 🏆 Highlights
+
+| | |
+|:--|:--|
+| 🥈 **2nd Prize, Jiangsu Province AI Competition** | Handwriting recognition CNN — 99.2% validation accuracy, 2.1 ms / image |
+| 🎯 **0.3 mm RMS tracking error** | Handwriting robot with Bézier trajectories + feed-forward PID |
+| ⚡ **< 2 ms control loop @ 1 kHz** | Direct-drive force-feedback racing simulator, 10 Nm peak torque |
+| 📱 **±2.7% accuracy from a phone mic** | iOS app measuring racket string tension via real-time FFT |
+
+---
+
+### 🔧 Featured Work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🎯 Focus Areas
-```yaml
-robotics:
-  - Motion Control & PID
-  - Embedded Firmware
-  - Hardware Integration
-  
-computer_vision:
-  - Real-time Processing
-  - ML Model Deployment
-  - Signal Processing (FFT/DSP)
-  
-mechatronics:
-  - CAD/CAM Design
-  - Motor Control Systems
-  - Precision Manufacturing
-```
+#### 🤖 [CourtMotion](https://github.com/RogerPan1203/CourtMotion)
+Tennis ball-machine robot. A Raspberry Pi drives two motors through a PCA9685, operated from a local web dashboard with confirm-to-start and emergency stop.
+
+`Python` `Raspberry Pi` `PCA9685` `systemd`
 
 </td>
 <td width="50%" valign="top">
 
-### 💻 Tech Stack
-```python
-stack = {
-  "languages": ["Python", "C++", "Swift", "Java"],
-  "robotics": ["ROS", "PID", "Motor Drivers"],
-  "vision_ml": ["OpenCV", "PyTorch", "PaddlePaddle", "CoreML"],
-  "mechanical": ["SolidWorks", "Fusion360", "GRBL", "Marlin"],
-  "embedded": ["Arduino", "Raspberry Pi", "Firmware"],
-  "ios": ["Swift", "SwiftUI", "CoreAudio", "AVFoundation"]
-}
-```
+#### 🎾 [Tennis Match Recognition](https://github.com/RogerPan1203/Tennis-Recognization)
+Analyses match video: court lines via Hough transform, players and balls via YOLOv8 plus colour filtering.
+
+`Python` `YOLOv8` `OpenCV`
 
 </td>
 </tr>
-</table>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFFF,100:0D1117&height=2&section=header" />
-
-<br>
-
-## 🔬 DEPLOYED_PROJECTS
-
-<details open>
-<summary><b>🎾 TensionVision</b> — iOS App for Tennis String Tension Analysis</summary>
-
-<br>
-
-**Challenge**: Professional tension gauges cost $200+; manual tuning is time-consuming  
-**Solution**: FFT analysis of string vibration frequency mapped to tension via calibration curves  
-**Tech Stack**: `Swift` · `SwiftUI` · `CoreAudio` · `CoreML` · `vDSP`  
-**Performance**: 
-- ±2.7% accuracy after calibration (N=120 tests)
-- 60Hz real-time sampling
-- <50ms processing latency
-
-</details>
-
-<details>
-<summary><b>🔍 OCR Engine</b> — PaddlePaddle CNN Handwriting Recognition</summary>
-
-<br>
-
-**Challenge**: Accurate handwritten digit recognition with minimal preprocessing  
-**Solution**: Custom CNN architecture with optimized data augmentation pipeline  
-**Tech Stack**: `Python` · `PaddlePaddle` · `OpenCV` · `NumPy`  
-**Achievement**: 
-- 🏆 **2nd Prize** — Jiangsu Province AI Competition
-- 99.2% accuracy on validation set
-- 2.1ms inference time per image
-
-</details>
-
-<details>
-<summary><b>✍️ Handwriting Robot</b> — Human-like Writing via Trajectory Planning</summary>
-
-<br>
-
-**Challenge**: Robotic motion looks mechanical; achieving smooth curves at varying speeds  
-**Solution**: Bezier curve trajectory generation + adaptive PID control with feedforward  
-**Tech Stack**: `C++` · `ROS` · `Stepper Motors` · `Trajectory Planning`  
-**Performance**:
-- 0.3mm RMS path tracking error
-- Variable speed control (20-80 mm/s)
-- Human evaluators rated 7.8/10 for realism
-
-</details>
-
-<details>
-<summary><b>🖨️ Custom 3D Printer</b> — High-Precision Modular Design</summary>
-
-<br>
-
-**Challenge**: Off-the-shelf printers lack precision for small mechanical parts  
-**Solution**: Custom kinematics with upgraded linear rails, direct drive extruder, PID-tuned hotend  
-**Tech Stack**: `Marlin Firmware` · `SolidWorks` · `CAD` · `PID Tuning`  
-**Specs**:
-- 0.05mm layer height capability
-- 98% first-layer adhesion success rate
-- 1000+ hours runtime with <2% maintenance downtime
-
-</details>
-
-<details>
-<summary><b>🏎️ Direct-Drive Racing Sim</b> — Force Feedback System</summary>
-
-<br>
-
-**Challenge**: Simulating realistic road feedback forces with minimal latency  
-**Solution**: Direct-drive motor with torque control + IMU sensor fusion for road feel  
-**Tech Stack**: `Embedded C` · `Motor Control` · `PID` · `IMU Fusion`  
-**Performance**:
-- <2ms control loop latency
-- 10Nm peak torque output
-- 1kHz update rate for smooth feedback
-
-</details>
-
-<details>
-<summary><b>⚙️ Compact CNC Mill</b> — GRBL Firmware from Scratch</summary>
-
-<br>
-
-**Challenge**: Commercial CNCs too large/expensive for hobbyist precision work  
-**Solution**: Custom compact design with GRBL firmware modifications for enhanced accuracy  
-**Tech Stack**: `GRBL` · `CAM` · `Stepper Motors` · `Microcontroller`  
-**Specs**:
-- 0.02mm repeatability
-- Aluminum cutting capable (200mm/min feed rate)
-- Custom toolpath generation via Python CAM scripts
-
-</details>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFFF,100:0D1117&height=2&section=header" />
-
-<br>
-
-## 📊 GITHUB_ANALYTICS
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RogerPan1203&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FF41&text_color=FFFFFF&ring_color=00FFFF" height="180" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RogerPan1203&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=00FFFF&fire=00FF41&currStreakLabel=00FFFF&sideLabels=FFFFFF" height="180" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RogerPan1203&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF" height="180" alt="Top Languages" />
-  <img src="https://github-profile-trophy.vercel.app/?username=RogerPan1203&theme=onestar&no-frame=true&column=3&row=2&margin-w=10&margin-h=10" height="180" alt="Trophies" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RogerPan1203&theme=react-dark&bg_color=0D1117&color=00FFFF&line=00FF41&point=FFFFFF&hide_border=true&custom_title=Contribution%20Activity" alt="Activity Graph" />
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFFF,100:0D1117&height=2&section=header" />
-
-<br>
-
-## 🛰️ SKILL_MATRIX
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,swift,java,opencv,pytorch,ros,arduino,raspberrypi,git&theme=dark" alt="Skills Row 1" />
-  <br>
-  <img src="https://skillicons.dev/icons?i=linux,vscode,xcode,docker,github,bash,matlab,figma,blender,unity&theme=dark" alt="Skills Row 2" />
-</p>
-
-<table align="center">
 <tr>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Python-8%2F10-00FF41?style=for-the-badge&logo=python&logoColor=white&labelColor=000000" /><br>
-<sub>4+ years · 10k+ lines</sub>
+<td width="50%" valign="top">
+
+#### 🎻 TensionVision
+iOS app that turns a string's vibration into tension — FFT on 60 Hz live audio, mapped through calibration curves. ±2.7% after calibration (N = 120), < 50 ms latency.
+
+`Swift` `SwiftUI` `CoreAudio` `vDSP` `CoreML`
+
 </td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/C++-6%2F10-00FFFF?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=000000" /><br>
-<sub>Embedded · ROS</sub>
+<td width="50%" valign="top">
+
+#### ✍️ Handwriting Robot
+Makes robot writing look human: Bézier trajectory generation with adaptive PID and feed-forward. 0.3 mm RMS error at 20–80 mm/s; rated 7.8 / 10 for realism.
+
+`C++` `ROS` `Stepper control` `Trajectory planning`
+
 </td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Swift-6%2F10-FF6B35?style=for-the-badge&logo=swift&logoColor=white&labelColor=000000" /><br>
-<sub>iOS · CoreML</sub>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### ⚙️ Compact CNC Mill
+Desktop mill with modified GRBL firmware and Python CAM scripts. 0.02 mm repeatability; cuts aluminium at 200 mm/min.
+
+`GRBL` `CAM` `Python` `Microcontrollers`
+
 </td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/CAD-7%2F10-9B59B6?style=for-the-badge&logo=autodesk&logoColor=white&labelColor=000000" /><br>
-<sub>SolidWorks · Fusion360</sub>
+<td width="50%" valign="top">
+
+#### 🏎️ Direct-Drive Racing Sim
+Force-feedback wheel with torque control and IMU fusion for road feel. 1 kHz update, < 2 ms loop latency.
+
+`Embedded C` `Motor control` `IMU fusion`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### ⌨️ [TypeTracer](https://github.com/RogerPan1203/TypeTracer) · ✋ [finger-count-macos](https://github.com/RogerPan1203/finger-count-macos)
+Two shipped macOS apps: real-time keystroke analytics, and fully offline finger counting with Apple Vision.
+
+`Swift` `SwiftUI` `Vision`
+
+</td>
+<td width="50%" valign="top">
+
+#### 🖨️ Custom 3D Printer
+Rebuilt for small precision parts: linear rails, direct-drive extruder, tuned Marlin. 0.05 mm layers, 1000+ hours of runtime.
+
+`Marlin` `SolidWorks` `PID tuning`
+
 </td>
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFFF,100:0D1117&height=2&section=header" />
+<sub>Most hardware projects live in private repositories — happy to walk through code, CAD and test data in an interview.</sub>
 
-<br>
+---
 
-## 📡 CONTACT_PROTOCOL
+### 🧰 Toolbox
 
 <p align="center">
-  <a href="mailto:panyf200713@outlook.com">
-    <img src="https://img.shields.io/badge/EMAIL-panyf200713@outlook.com-00FFFF?style=for-the-badge&logo=microsoft-outlook&logoColor=white&labelColor=000000" alt="Email" />
-  </a>
-  <a href="tel:+15303604994">
-    <img src="https://img.shields.io/badge/PHONE-+1%20530%20360%204994-00FF41?style=for-the-badge&logo=phone&logoColor=white&labelColor=000000" alt="Phone" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=python,cpp,c,swift,java,pytorch,opencv,ros&theme=dark" alt="Languages and ML" /><br/>
+  <img src="https://skillicons.dev/icons?i=arduino,raspberrypi,linux,matlab,git,docker,xcode,blender&theme=dark" alt="Hardware and tools" />
+</p>
+
+| Area | Tools |
+|:--|:--|
+| **Control & Embedded** | PID / feed-forward, stepper & BLDC drivers, Arduino, Raspberry Pi, GRBL, Marlin |
+| **Vision & ML** | PyTorch, PaddlePaddle, YOLOv8, OpenCV, CoreML, FFT / DSP |
+| **Mechanical** | SolidWorks, Fusion 360, CAM, precision fabrication |
+| **Apps** | Swift, SwiftUI, CoreAudio, AVFoundation, Apple Vision |
+
+---
+
+<p align="center">
+  <a href="https://linkedin.com/in/YifanPan"><img src="https://img.shields.io/badge/Let's%20talk%20on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/YifanPan">
-    <img src="https://img.shields.io/badge/LinkedIn-YifanPan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/RogerPan1203">
-    <img src="https://img.shields.io/badge/GitHub-RogerPan1203-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="GitHub" />
-  </a>
-  <a href="YOUR_RESUME_PDF_LINK">
-    <img src="https://img.shields.io/badge/RESUME-Download%20PDF-FF6B35?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=000000" alt="Resume" />
-  </a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00CED1,45:0E4D5C,100:0D1117&height=90&section=footer" alt="" />
 </p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/LANGUAGES-中文%20%7C%20English%20%7C%20日本語-9B59B6?style=for-the-badge&labelColor=000000" alt="Languages" />
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFFF,100:0D1117&height=2&section=header" />
-
-<br>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00CED1,100:00FFFF&height=120&section=footer&reversal=true" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=%E2%9A%99%EF%B8%8F+Building+machines+that+see+and+think;%F0%9F%93%A7+Open+to+collaboration+on+robotics+%26+ML+projects;%E2%9C%A8+Let's+turn+physics+into+code+together" alt="Footer Typing" />
-</p>
-
-
-
 
 <!-- prettier-ignore-end -->
